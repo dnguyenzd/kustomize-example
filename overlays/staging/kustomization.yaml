@@ -1,3 +1,6 @@
+namespace: nginx-staging
+commonLabels:
+  env: staging
 bases:
 - ../../base
 configMapGenerator:
