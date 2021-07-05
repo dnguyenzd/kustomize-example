@@ -1,0 +1,6 @@
+bases:
+- ../../base
+configMapGenerator:
+- name: html-config
+  files:
+  - index.html
